@@ -25,7 +25,7 @@
                 type : "post",
                 dataType : "json",//回调
                 success : function(data){
-                    alert(data.email);
+                    alert("后台发送过来的email为："+data.email);
                     document.getElementById("content").innerHTML = data.email;
                 }
 
